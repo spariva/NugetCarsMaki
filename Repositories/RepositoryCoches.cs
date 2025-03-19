@@ -14,7 +14,7 @@ namespace NugetCarsMaki.Repositories
 
 
         public RepositoryCoches() {
-            string resourceName = "NugetCarsPGS.coches.xml";
+            string resourceName = "NugetCarsPGS.Coches.xml";
             Stream stream = this.GetType().Assembly.GetManifestResourceStream(resourceName);
             this.document = XDocument.Load(stream);
         }
